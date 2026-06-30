@@ -1,0 +1,15 @@
+{
+  "name": "ai-driven-development-handbook",
+  "version": "1.0.0",
+  "description": "AI駆動開発のすべてを学べる、経験豊富なプログラマー向けの知識サイト",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}

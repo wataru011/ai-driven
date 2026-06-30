@@ -104,7 +104,7 @@ TypeError: Cannot read property 'id' of undefined
 
 問題点: エラーメッセージだけで、コード・再現条件・期待動作がない。モデルは推測でコードを書くしかなく、的外れになりやすい。
 
-```text
+````text
 # ✅ After
 あなたはTypeScriptに精通したフロントエンドエンジニアです。
 
@@ -131,7 +131,7 @@ async function getUser(id: string): Promise<User> {
 
 ## 出力
 修正後のコード全体と、null ケースを検証するテストを1つ。
-```
+````
 
 違い: 役割・目的・期待動作・制約・対象コード・出力形式が揃い、**出力が正しいかを呼び出し側が判定できる**。
 

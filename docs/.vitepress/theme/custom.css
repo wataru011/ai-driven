@@ -1,0 +1,98 @@
+/**
+ * 明るくエネルギッシュなデザインのためのカスタムテーマ
+ * ベースカラー: アンバー/オレンジ + サンシャイン系のアクセント
+ */
+
+:root {
+  /* ブランドカラー(明るいアンバー〜オレンジ) */
+  --vp-c-brand-1: #ea6c00;
+  --vp-c-brand-2: #f97316;
+  --vp-c-brand-3: #fb923c;
+  --vp-c-brand-soft: rgba(249, 115, 22, 0.14);
+
+  --vp-c-tip-1: var(--vp-c-brand-1);
+  --vp-c-tip-2: var(--vp-c-brand-2);
+  --vp-c-tip-3: var(--vp-c-brand-3);
+  --vp-c-tip-soft: var(--vp-c-brand-soft);
+
+  /* 明るい背景 */
+  --vp-c-bg: #fffdfa;
+  --vp-c-bg-alt: #fff7ed;
+  --vp-c-bg-soft: #fff3e2;
+
+  /* ボタン */
+  --vp-button-brand-bg: var(--vp-c-brand-2);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-1);
+  --vp-button-brand-active-bg: var(--vp-c-brand-1);
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-hover-border: transparent;
+}
+
+/* ヒーローの華やかなグラデーション */
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(
+    120deg,
+    #f59e0b 10%,
+    #f97316 45%,
+    #ef4444 80%
+  );
+
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    #fbbf24 30%,
+    #f97316 60%,
+    #ec4899 90%
+  );
+  --vp-home-hero-image-filter: blur(48px);
+}
+
+/* ダークモードでも彩度を保つ */
+.dark {
+  --vp-c-bg: #1a1614;
+  --vp-c-bg-alt: #211b16;
+  --vp-c-bg-soft: #2a221b;
+  --vp-c-brand-1: #fb923c;
+  --vp-c-brand-2: #f97316;
+  --vp-c-brand-3: #fdba74;
+}
+
+/* 全体をやわらかな日差しのようなグラデで包む */
+.VPHome,
+.VPDoc {
+  background-image:
+    radial-gradient(1200px 600px at 0% -10%, rgba(251, 191, 36, 0.12), transparent 60%),
+    radial-gradient(1000px 500px at 100% 0%, rgba(236, 72, 153, 0.08), transparent 55%);
+  background-attachment: fixed;
+}
+
+/* 特徴カードを明るいカードに */
+.VPFeature {
+  border: 1px solid rgba(249, 115, 22, 0.18);
+  background-color: rgba(255, 255, 255, 0.65);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+.dark .VPFeature {
+  background-color: rgba(42, 34, 27, 0.55);
+}
+.VPFeature:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(249, 115, 22, 0.18);
+  border-color: rgba(249, 115, 22, 0.45);
+}
+
+/* 見出しのアクセント */
+.vp-doc h2 {
+  padding-top: 16px;
+  border-top: 1px solid rgba(249, 115, 22, 0.15);
+}
+
+/* カスタムコンテナ(tip/info)のアクセントを明るく */
+.custom-block.tip {
+  border-color: var(--vp-c-brand-2);
+}
+
+/* リンクのホバーを少し華やかに */
+.vp-doc a {
+  text-decoration-color: rgba(249, 115, 22, 0.4);
+}

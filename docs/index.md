@@ -60,6 +60,21 @@ features:
     details: 個人の生産性をチーム・組織の成果へ。導入戦略・ガバナンス・効果測定までをカバー。
     link: /adoption/strategy
     linkText: 導入を学ぶ
+  - icon: 🛠️
+    title: 手を動かして学ぶ
+    details: 機能開発・テスト生成・デバッグ・レガシー移行を、実際のプロンプトと差分つきで追体験できるハンズオン集。
+    link: /practice/feature-development
+    linkText: ハンズオンへ
+  - icon: 🧩
+    title: パターンで引き出す
+    details: 再利用可能なプロンプトパターンカタログとアンチパターン集。"その都度考える"から"型を使う"へ。
+    link: /patterns/prompt-catalog
+    linkText: パターン集へ
+  - icon: 🧮
+    title: モデルとコストを最適化
+    details: モデル選定・出力評価(Evals)・トークンコスト最適化。AIを"工学的に"運用するための判断軸。
+    link: /models/choosing-models
+    linkText: モデルを学ぶ
 ---
 
 <div style="max-width: 880px; margin: 56px auto 0; padding: 0 24px;">
@@ -82,10 +97,14 @@ features:
 | 目的 | おすすめの入口 |
 | --- | --- |
 | まず全体像を掴みたい | [AI駆動開発とは](/guide/what-is-aidd) → [従来開発との違い](/guide/vs-traditional) |
-| すぐ手を動かしたい | [はじめての一歩](/guide/getting-started) → [プロンプト基礎](/prompting/fundamentals) |
+| すぐ手を動かしたい | [はじめての一歩](/guide/getting-started) → [機能開発ハンズオン](/practice/feature-development) |
 | 技術の中身を知りたい | [LLMの仕組み](/concepts/how-llms-work) → [RAG](/concepts/rag) |
+| プロンプトを極めたい | [プロンプト基礎](/prompting/fundamentals) → [パターンカタログ](/patterns/prompt-catalog) |
+| 自分のスタックで使いたい | [スタック別ガイド](/stacks/frontend) |
 | 業務フローに組み込みたい | [開発ワークフロー](/workflow/overview) |
+| モデル/コストを最適化したい | [モデルの選び方](/models/choosing-models) → [コスト最適化](/models/cost-optimization) |
 | チームに導入したい | [導入戦略](/adoption/strategy) → [ガバナンス](/adoption/governance) |
+| 体系立てて学びたい | [学習ロードマップ](/reference/roadmap) |
 
 ::: tip 補足
 本サイトは技術トレンドの変化が激しい分野を扱っています。製品名・価格・モデル仕様などは執筆時点の一般的な情報であり、実際の利用時は各ベンダーの一次情報を確認してください。

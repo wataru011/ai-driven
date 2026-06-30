@@ -42,18 +42,42 @@ export default defineConfig({
       { text: 'ホーム', link: '/' },
       { text: 'はじめに', link: '/guide/what-is-aidd' },
       {
-        text: '主要トピック',
+        text: '学ぶ',
         items: [
+          { text: 'コア技術', link: '/concepts/how-llms-work' },
           { text: 'ツールエコシステム', link: '/tools/landscape' },
+          { text: 'モデルと評価', link: '/models/choosing-models' },
           { text: 'プロンプトエンジニアリング', link: '/prompting/fundamentals' },
+          { text: 'プロンプトパターン集', link: '/patterns/prompt-catalog' }
+        ]
+      },
+      {
+        text: '実践する',
+        items: [
           { text: '開発ワークフロー', link: '/workflow/overview' },
+          { text: '実践ガイド(ハンズオン)', link: '/practice/feature-development' },
+          { text: 'スタック別ガイド', link: '/stacks/frontend' },
           { text: 'AIエージェント', link: '/agents/what-is-agent' },
+          { text: '高度なトピック', link: '/advanced/spec-driven' }
+        ]
+      },
+      {
+        text: '運用する',
+        items: [
           { text: '品質とセキュリティ', link: '/quality/code-quality' },
           { text: '組織への導入', link: '/adoption/strategy' }
         ]
       },
-      { text: '用語集', link: '/reference/glossary' },
-      { text: 'リソース', link: '/reference/resources' }
+      {
+        text: 'リファレンス',
+        items: [
+          { text: '用語集', link: '/reference/glossary' },
+          { text: 'プロンプト/CLIチートシート', link: '/reference/cheatsheet' },
+          { text: '学習ロードマップ', link: '/reference/roadmap' },
+          { text: 'FAQ', link: '/reference/faq' },
+          { text: 'リソース集', link: '/reference/resources' }
+        ]
+      }
     ],
 
     sidebar: {
@@ -89,12 +113,30 @@ export default defineConfig({
           ]
         },
         {
+          text: 'モデルと評価',
+          collapsed: false,
+          items: [
+            { text: 'モデルの選び方', link: '/models/choosing-models' },
+            { text: 'AI出力の評価(Evals)', link: '/models/evaluation' },
+            { text: 'コスト最適化', link: '/models/cost-optimization' }
+          ]
+        },
+        {
           text: 'プロンプトエンジニアリング',
           collapsed: false,
           items: [
             { text: '基礎', link: '/prompting/fundamentals' },
             { text: '実践テクニック', link: '/prompting/techniques' },
             { text: 'コンテキスト設計', link: '/prompting/context-design' }
+          ]
+        },
+        {
+          text: 'プロンプトパターン集',
+          collapsed: false,
+          items: [
+            { text: 'プロンプトパターンカタログ', link: '/patterns/prompt-catalog' },
+            { text: 'コンテキストエンジニアリング', link: '/patterns/context-engineering' },
+            { text: 'アンチパターン集', link: '/patterns/anti-patterns' }
           ]
         },
         {
@@ -109,12 +151,45 @@ export default defineConfig({
           ]
         },
         {
+          text: '実践ガイド(ハンズオン)',
+          collapsed: false,
+          items: [
+            { text: '機能開発のエンドツーエンド', link: '/practice/feature-development' },
+            { text: 'テスト生成の実践', link: '/practice/test-generation' },
+            { text: 'デバッグ支援の実践', link: '/practice/debugging' },
+            { text: 'レガシー移行・大規模変更', link: '/practice/legacy-migration' },
+            { text: 'ドキュメント生成', link: '/practice/documentation' },
+            { text: 'AIコードレビューbotの構築', link: '/practice/code-review-bot' }
+          ]
+        },
+        {
+          text: 'スタック別ガイド',
+          collapsed: true,
+          items: [
+            { text: 'フロントエンド', link: '/stacks/frontend' },
+            { text: 'バックエンド', link: '/stacks/backend' },
+            { text: 'データ・ML', link: '/stacks/data-ml' },
+            { text: 'インフラ・DevOps', link: '/stacks/infra-devops' },
+            { text: 'SQL・データベース', link: '/stacks/sql-database' }
+          ]
+        },
+        {
           text: 'AIエージェント開発',
           collapsed: false,
           items: [
             { text: 'エージェントとは', link: '/agents/what-is-agent' },
             { text: 'ツール使用とMCP', link: '/agents/tools-and-mcp' },
             { text: 'マルチエージェント', link: '/agents/multi-agent' }
+          ]
+        },
+        {
+          text: '高度なトピック',
+          collapsed: true,
+          items: [
+            { text: '仕様駆動開発(Spec-Driven)', link: '/advanced/spec-driven' },
+            { text: 'エージェント設計パターン', link: '/advanced/agent-design-patterns' },
+            { text: 'MCP 実装ディープダイブ', link: '/advanced/mcp-deep-dive' },
+            { text: 'セキュリティ ディープダイブ', link: '/advanced/security-deep-dive' }
           ]
         },
         {
@@ -140,6 +215,9 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '用語集', link: '/reference/glossary' },
+            { text: 'プロンプト/CLIチートシート', link: '/reference/cheatsheet' },
+            { text: '学習ロードマップ', link: '/reference/roadmap' },
+            { text: 'よくある質問(FAQ)', link: '/reference/faq' },
             { text: 'リソース集', link: '/reference/resources' },
             { text: 'ベストプラクティス チェックリスト', link: '/reference/checklist' }
           ]

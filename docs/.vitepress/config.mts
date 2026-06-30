@@ -56,6 +56,7 @@ export default defineConfig({
         text: '実践する',
         items: [
           { text: '開発ワークフロー', link: '/workflow/overview' },
+          { text: '新規開発 vs 既存改修', link: '/approach/greenfield-vs-brownfield' },
           { text: '実践ガイド(ハンズオン)', link: '/practice/feature-development' },
           { text: 'スタック別ガイド', link: '/stacks/frontend' },
           { text: 'AIエージェント', link: '/agents/what-is-agent' },
@@ -166,6 +167,16 @@ export default defineConfig({
             { text: '実装フェーズ', link: '/workflow/implementation' },
             { text: 'テストとレビュー', link: '/workflow/testing-review' },
             { text: 'リファクタリングと保守', link: '/workflow/refactoring' }
+          ]
+        },
+        {
+          text: 'アプローチ別(新規 vs 既存改修)',
+          collapsed: false,
+          items: [
+            { text: '新規開発 vs 既存改修の違い', link: '/approach/greenfield-vs-brownfield' },
+            { text: '新規開発(0→1)のアプローチ', link: '/approach/greenfield' },
+            { text: '既存システム改修のアプローチ', link: '/approach/brownfield' },
+            { text: 'リバースエンジニアリングと作るべき文書', link: '/approach/reverse-engineering' }
           ]
         },
         {

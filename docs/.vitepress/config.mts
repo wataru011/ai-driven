@@ -41,6 +41,7 @@ export default defineConfig({
     nav: [
       { text: 'ホーム', link: '/' },
       { text: 'はじめに', link: '/guide/what-is-aidd' },
+      { text: '🚀 すぐ使う', link: '/ready/quickstart-30min' },
       {
         text: '学ぶ',
         items: [
@@ -90,6 +91,20 @@ export default defineConfig({
             { text: '歴史と進化', link: '/guide/history' },
             { text: '従来開発との違い', link: '/guide/vs-traditional' },
             { text: 'はじめての一歩', link: '/guide/getting-started' }
+          ]
+        },
+        {
+          text: '🚀 実務ですぐ使う(テンプレート集)',
+          collapsed: false,
+          items: [
+            { text: '30分クイックスタート', link: '/ready/quickstart-30min' },
+            { text: 'ルールファイル雛形', link: '/ready/rule-files' },
+            { text: 'プロンプトテンプレート集', link: '/ready/prompt-templates' },
+            { text: '逆引きレシピ集', link: '/ready/recipes' },
+            { text: 'CI/CD連携(実YAML)', link: '/ready/ci-integration' },
+            { text: 'MCPセットアップ', link: '/ready/mcp-setup' },
+            { text: 'チーム利用ポリシー雛形', link: '/ready/team-policy' },
+            { text: 'PR・レビュー基準テンプレート', link: '/ready/pr-review-standards' }
           ]
         },
         {

@@ -124,6 +124,8 @@ export default defineConfig({
             { text: '全体像', link: '/tools/landscape' },
             { text: 'コーディングアシスタント', link: '/tools/coding-assistants' },
             { text: 'エージェント型ツール', link: '/tools/agentic-tools' },
+            { text: '主要ツールの使用感', link: '/tools/hands-on-impressions' },
+            { text: 'Claude Code vs GitHub Copilot', link: '/tools/claude-code-vs-copilot' },
             { text: 'ツールの選び方', link: '/tools/choosing' }
           ]
         },
@@ -160,6 +162,7 @@ export default defineConfig({
           items: [
             { text: '全体像', link: '/workflow/overview' },
             { text: '設計フェーズ', link: '/workflow/design' },
+            { text: '設計ドキュメントの作り方', link: '/workflow/design-documents' },
             { text: '実装フェーズ', link: '/workflow/implementation' },
             { text: 'テストとレビュー', link: '/workflow/testing-review' },
             { text: 'リファクタリングと保守', link: '/workflow/refactoring' }
@@ -212,6 +215,8 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: 'コード品質の担保', link: '/quality/code-quality' },
+            { text: '生成物を人が評価する方法', link: '/quality/evaluating-output' },
+            { text: '大量生成物のレビュー戦略', link: '/quality/reviewing-at-scale' },
             { text: 'セキュリティリスク', link: '/quality/security' },
             { text: 'ハルシネーション対策', link: '/quality/hallucination' }
           ]

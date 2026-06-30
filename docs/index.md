@@ -119,6 +119,7 @@ features:
 | 技術の中身を知りたい | [LLMの仕組み](/concepts/how-llms-work) → [RAG](/concepts/rag) |
 | プロンプトを極めたい | [プロンプト基礎](/prompting/fundamentals) → [パターンカタログ](/patterns/prompt-catalog) |
 | 自分のスタックで使いたい | [スタック別ガイド](/stacks/frontend) |
+| 新規/既存改修で進め方を知りたい | [新規 vs 既存改修](/approach/greenfield-vs-brownfield) → [既存改修のアプローチ](/approach/brownfield) |
 | 業務フローに組み込みたい | [開発ワークフロー](/workflow/overview) |
 | モデル/コストを最適化したい | [モデルの選び方](/models/choosing-models) → [コスト最適化](/models/cost-optimization) |
 | チームに導入したい | [導入戦略](/adoption/strategy) → [ガバナンス](/adoption/governance) |

@@ -10,11 +10,14 @@ hero:
     alt: AI駆動開発ハンドブック
   actions:
     - theme: brand
+      text: 🚀 30分で実務に導入する
+      link: /ready/quickstart-30min
+    - theme: alt
       text: AI駆動開発とは？
       link: /guide/what-is-aidd
     - theme: alt
-      text: ツールの全体像を見る
-      link: /tools/landscape
+      text: 逆引きレシピ集
+      link: /ready/recipes
     - theme: alt
       text: GitHub
       link: https://github.com/wataru011/ai-driven
@@ -78,6 +81,21 @@ features:
 ---
 
 <div style="max-width: 880px; margin: 56px auto 0; padding: 0 24px;">
+
+## 🚀 今すぐ実務で使いたい人へ
+
+理屈は後回しで、**今日から現場に組み込みたい**なら、まずこの「実務ですぐ使う」セクションへ。コピペしてそのまま使えるテンプレートを揃えています。
+
+| すぐ使えるもの | 内容 |
+| --- | --- |
+| [30分クイックスタート](/ready/quickstart-30min) | 今日の30分でAIを開発に組み込む具体手順 |
+| [ルールファイル雛形](/ready/rule-files) | `CLAUDE.md` / `AGENTS.md` / Cursor / Copilot のコピペ雛形 |
+| [プロンプトテンプレート集](/ready/prompt-templates) | 実装・レビュー・テスト等のコピペ用プロンプト |
+| [逆引きレシピ集](/ready/recipes) | 「○○したい」から引く実務タスク手順 |
+| [CI/CD連携(実YAML)](/ready/ci-integration) | PRへの自動AIレビュー等のワークフロー |
+| [MCPセットアップ](/ready/mcp-setup) | `.mcp.json` 設定例とサーバー構成 |
+| [チーム利用ポリシー雛形](/ready/team-policy) | 社内配布用ガイドラインのテンプレート |
+| [PR・レビュー基準](/ready/pr-review-standards) | PRテンプレ・レビュー観点・マージ基準 |
 
 ## このサイトについて
 

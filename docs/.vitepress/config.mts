@@ -41,6 +41,7 @@ export default defineConfig({
     nav: [
       { text: 'ホーム', link: '/' },
       { text: 'はじめに', link: '/guide/what-is-aidd' },
+      { text: '🚀 すぐ使う', link: '/ready/quickstart-30min' },
       {
         text: '学ぶ',
         items: [
@@ -93,6 +94,20 @@ export default defineConfig({
           ]
         },
         {
+          text: '🚀 実務ですぐ使う(テンプレート集)',
+          collapsed: false,
+          items: [
+            { text: '30分クイックスタート', link: '/ready/quickstart-30min' },
+            { text: 'ルールファイル雛形', link: '/ready/rule-files' },
+            { text: 'プロンプトテンプレート集', link: '/ready/prompt-templates' },
+            { text: '逆引きレシピ集', link: '/ready/recipes' },
+            { text: 'CI/CD連携(実YAML)', link: '/ready/ci-integration' },
+            { text: 'MCPセットアップ', link: '/ready/mcp-setup' },
+            { text: 'チーム利用ポリシー雛形', link: '/ready/team-policy' },
+            { text: 'PR・レビュー基準テンプレート', link: '/ready/pr-review-standards' }
+          ]
+        },
+        {
           text: 'コア技術を理解する',
           collapsed: false,
           items: [
@@ -109,6 +124,8 @@ export default defineConfig({
             { text: '全体像', link: '/tools/landscape' },
             { text: 'コーディングアシスタント', link: '/tools/coding-assistants' },
             { text: 'エージェント型ツール', link: '/tools/agentic-tools' },
+            { text: '主要ツールの使用感', link: '/tools/hands-on-impressions' },
+            { text: 'Claude Code vs GitHub Copilot', link: '/tools/claude-code-vs-copilot' },
             { text: 'ツールの選び方', link: '/tools/choosing' }
           ]
         },
@@ -145,6 +162,7 @@ export default defineConfig({
           items: [
             { text: '全体像', link: '/workflow/overview' },
             { text: '設計フェーズ', link: '/workflow/design' },
+            { text: '設計ドキュメントの作り方', link: '/workflow/design-documents' },
             { text: '実装フェーズ', link: '/workflow/implementation' },
             { text: 'テストとレビュー', link: '/workflow/testing-review' },
             { text: 'リファクタリングと保守', link: '/workflow/refactoring' }
@@ -197,6 +215,8 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: 'コード品質の担保', link: '/quality/code-quality' },
+            { text: '生成物を人が評価する方法', link: '/quality/evaluating-output' },
+            { text: '大量生成物のレビュー戦略', link: '/quality/reviewing-at-scale' },
             { text: 'セキュリティリスク', link: '/quality/security' },
             { text: 'ハルシネーション対策', link: '/quality/hallucination' }
           ]
